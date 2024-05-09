@@ -158,7 +158,7 @@ header ul li {
 }
 
 .header_About_Image img {
-
+    border-radius: 50%;
     height: 400px;
 }
 
