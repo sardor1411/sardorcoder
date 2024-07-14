@@ -2,219 +2,1058 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style.css">
-    <title>SardorDev || Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STARTON & TON</title>
+  <link rel="shortcut icon" href="./assets/images/starton.PNG" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
-    <header>
-        <div class="icon">
-            <h1>Sardor</h1>
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/starton.PNG" width="32" height="32" alt="Cryptex logo">
+        STARTON
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link " data-nav-link>Home Page</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#navigate-future" class="navbar-link" data-nav-link>Future</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#navigate-telegram" class="navbar-link" data-nav-link>Telegram Bot</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#navigate-about" class="navbar-link" data-nav-link>AboutStarTon</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#navigate-dedust" class="navbar-link" data-nav-link>Buy or Sale</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#navigate-contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <a href="#navigate-dedust" class="btn btn-outline">Wallet</a>
+
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="hero" data-section>
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">STARTON/TON</h1>
+
+            <p class="hero-text">
+              A project that can compete with bitcoin. Don't miss the opportunity buy starton coin fast. Invest for your
+              future.
+            </p>
+
+            <a href="#navigate-dedust" class="btn btn-primary">Buy Now</a>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="570" height="448" alt="hero banner" class="w-100">
+          </figure>
+
         </div>
+      </section>
 
-        <div class="header_Items">
-            <div class="headerUl">
 
-                <ul>
-                    <li class="header_itemsLi"><a href="#home">Home</a></li>
-                    <li class="header_itemsLi"><a href="#AboutId">About</a></li>
-                    <li class="header_itemsLi"><a href="#skil">Skills</a></li>
-                    <li class="header_itemsLi"><a href="#projectPage">Projects</a></li>
-                    <li class="header_itemsLi"><a href="#header_contact">Contact</a></li>
-                    <i class="fa-regular fa-sun sun"></i>
-                    <i class="fa-regular fa-moon hide moon"></i>
-                </ul>
 
-            </div>
-            <div class="darkMode hide">
-                <i class="fa-regular fa-sun sun1"></i>
-                <i class="fa-regular fa-moon hide moon1"></i>
-            </div>
-            <div class="menuBar">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </div>
 
-        <div class="nav_menu" id="nav_menu">
-            <ul class="nav_list">
-                <li class="nav_item">
-                    <a href="#home" class="nav_link active-link">Home</a>
-                </li>
-                <li class="nav_item">
-                    <a href="#AboutId" class="#nav_link">About</a>
-                </li>
-                <li class="nav_item">
-                    <a href="#skil" class="nav_link">Skills</a>
-                </li>
-                <li class="nav_item">
-                    <a href="#projectPage" class="nav_link">Projects</a>
-                </li>
-                <li class="nav_item">
-                    <a href="#header_contact" class="nav_link">Contact</a>
-                </li>
+
+      <!-- 
+        - #TREND
+      -->
+
+      <section class="section trend" aria-label="crypto trend" data-section>
+        <div class="container">
+
+          <div class="trend-tab">
+
+            <ul class="tab-nav">
+
+              <li>
+                <button class="tab-btn active">Crypto</button>
+              </li>
+
+              <li>
+                <button class="tab-btn">Crypto</button>
+              </li>
+
+              <li>
+                <button class="tab-btn">Crypto</button>
+              </li>
+
+              <li>
+                <button class="tab-btn">Crypto</button>
+              </li>
+
+              <li>
+                <button class="tab-btn">Crypto</button>
+              </li>
+
+              <li>
+                <button class="tab-btn">Crypto</button>
+              </li>
+
+              <li>
+                <button class="tab-btn">Crypto</button>
+              </li>
+
+              <li>
+                <button class="tab-btn">Crypto</button>
+              </li>
+
+              <li>
+                <button class="tab-btn">Crypto</button>
+              </li>
+
             </ul>
-            <div class="nav__close" id="nav-close">
-                <i class="fa-solid fa-x"></i>
-            </div>
-        </div>
-    </header>
+
+            <ul class="tab-content">
+
+              <li>
+                <div class="trend-card">
+
+                  <div class="card-title-wrapper">
+                    <img src="./assets/images/coin-1.svg" width="24" height="24" alt="bitcoin logo">
+
+                    <a href="#" class="card-title">
+                      Bitcoin <span class="span">BTC/USD</span>
+                    </a>
+                  </div>
+
+                  <data class="card-value" value="46168.95">USD 60,020,90</data>
 
 
+                  <div class="card-analytics">
+                    <data class="current-price" value="36641.20">$ 1,183.50B USD</data>
 
+                    <div class="badge red">-0.79%</div>
+                  </div>
 
-
-
-    <br id="home"><br><br> <br>
-    <div class="header_About">
-        <div class="header_About_Text">
-            <p>SALOM!</p><br>
-            <h1><span class="men">Men</span> <span>Sardor</span></h1>
-            <h1><span>Ermuhammedov</span></h1><br>
-            <h2>Uzbekistonlik Web Dasturchiman</h2>
-        </div>
-
-        <div class="header_About_Image">
-            <img src="./images/ozim.jpg" alt="">
-        </div>
-    </div><br><br id="AboutId">
-    <h1 class="NewAboutMe_Page" id="smre">About Me</h1>
-    <br><br>
-    <div class="About_Me">
-        <div class="About_Me_Image">
-            <img src="./images/ozim.jpg" alt="">
-        </div>
-        <div class="Simple_Info">
-            <div class="About_Me_Text_Input">
-                <h4>Ism Familiya:</h4><br><br>
-                <h4>Tug'ligan kun:</h4><br><br>
-                <h4>Manzil:</h4><br><br>
-                <h4>Email:</h4><br><br>
-                <h4>Phone:</h4><br><br><br>
-                <i class="fa-brands fa-telegram"></i>
-            </div>
-            <div class="About_Me_Text_Value">
-                <h4>E.Sardor</h4><br><br>
-                <h4>14.03.2009</h4><br><br>
-                <h4>Jizzax shahar</h4><br><br>
-                <h4>sardordev@gmail.com</h4><br><br>
-                <h4>+998(88)113-53-00</h4><br><br><br>
-                <i class="fa-brands fa-instagram"></i>
-            </div>
-        </div>
-    </div>
-    <br><br id="skil">
-
-    <h1 class="MySkillsFirstPage">My Skills</h1>
-    <br><br>
-
-    <div class="My_Skills">
-        <div class="boxs">
-            <i class="fa-brands fa-html5"></i>
-            <p>HTML</p>
-        </div>
-        <div class="boxs">
-            <i class="fa-brands fa-css3-alt"></i>
-            <p>CSS</p>
-        </div>
-        <div class="boxs">
-            <i class="fa-brands fa-js"></i>
-            <p>JS</p>
-        </div>
-        <div class="boxs">
-            <i class="fa-brands fa-react"></i>
-            <p>REACT</p>
-        </div>
-        <div class="boxs">
-            <i class="fa-brands fa-git-alt"></i>
-            <p>GIT</p>
-        </div>
-        <div class="boxs">
-            <i class="fa-brands fa-github"></i>
-            <p>GITHUB</p>
-        </div>
-    </div>
-    <br><br id="projectPage">
-
-    <h1 class="project">Projects</h1>
-    <br><br><br><br><br>
-
-    <div class="Project_Page">
-        <div class="prjkt1">
-            <button class="project_hover"><a href="">Source Code</a></button>
-            <button class="project_hover"><a href="">Demo</a></button>
-        </div>
-        <div class="prjkt2">
-            <button class="project_hover"><a href="">Source Code</a></button>
-            <button class="project_hover"><a href="">Demo</a></button>
-        </div>
-        <div class="prjkt3">
-            <button class="project_hover"><a href="">Source Code</a></button>
-            <button class="project_hover"><a href="">Demo</a></button>
-        </div>
-        <div class="prjkt4">
-            <button class="project_hover"><a href="">Source Code</a></button>
-            <button class="project_hover"><a href="">Demo</a></button>
-        </div>
-
-    </div>
-    <div class="all_cursors">
-        <div class="cursor1"><img src="./images/book-shop.png" alt=""></div>
-        <div class="cursor2"><img src="./images/crud..png" alt=""></div>
-        <div class="cursor3"><img src="./images/note.png" alt=""></div>
-        <div class="cursor4"><img src="./images/wather.png" alt=""></div>
-    </div>
-    <br><br><br>
-<br><br id="header_contact">
-    <h1 class="firstpageContact">Contact Me</h1>
-<br><br>
-    <section>
-        <div class="conact_main">
-            <div class="contact_addres">
-                <div class="contanctIcon">
-                    <i class="fa-solid fa-location-dot"></i>
                 </div>
-                <h3>MANZIL</h3>
-                <p>O'zbekiston Respublikasi. Jizzax shahri. Qipchoq mahallasi 6-uy.</p>
-            </div>
-            <div class="contact_number">
-                <div class="contanctIcon">
-                    <i class="fa-solid fa-phone"></i>
+              </li>
+
+              <li>
+                <div class="trend-card">
+
+                  <div class="card-title-wrapper">
+                    <img src="./assets/images/coin-2.svg" width="24" height="24" alt="ethereum logo">
+
+                    <a href="#" class="card-title">
+                      Ethereum <span class="span">ETH/USD</span>
+                    </a>
+                  </div>
+
+                  <data class="card-value" value="3480.04">USD 3,201,57</data>
+
+                  <div class="card-analytics">
+                    <data class="current-price" value="36641.20">$ 386.37B USD</data>
+
+                    <div class="badge green">+10.55%</div>
+                  </div>
+
                 </div>
-                <h3>TELEFON RAQAM</h3>
-                <p>+998(88)113-53-00</p>
-            </div>
-            <div class="contact_email">
-                <div class="contanctIcon">
-                    <i class="fa-regular fa-envelope"></i>
+              </li>
+
+              <li>
+                <div class="trend-card">
+
+                  <div class="card-title-wrapper">
+                    <img src="./assets/images/coin-3.svg" width="24" height="24" alt="tether logo">
+
+                    <a href="#" class="card-title">
+                      Tether <span class="span">USDT/USD</span>
+                    </a>
+                  </div>
+
+                  <data class="card-value" value="1.00">USD 1.00</data>
+
+                  <div class="card-analytics">
+                    <data class="current-price" value="36641.20">112.51B USD</data>
+
+                    <div class="badge red">-0.01%</div>
+                  </div>
+
                 </div>
-                <h3>EMAIL MANZIL</h3>
-                <p>sardordev@gmail.com</p>
-            </div>
-            <div class="contact_website">
-                <div class="contanctIcon">
-                    <i class="fa-solid fa-earth-asia"></i>
+              </li>
+
+              <li>
+                <div class="trend-card active">
+
+                  <div class="card-title-wrapper">
+                    <img src="./assets/images/starton.PNG" width="24" height="24" alt="STARTON logo">
+
+                    <a href="#" class="card-title">
+                      STARTON <span class="span">STARTON/TON</span>
+                    </a>
+                  </div>
+
+                  <data class="card-value" value="443.56">USD 0.000199</data>
+
+                  <div class="card-analytics">
+                    <data class="current-price" value="36641.20">$ 200.23K USD</data>
+
+                    <div class="badge green">+12.89%</div>
+                  </div>
+
                 </div>
-                <h3>WEBSITE</h3>
-                <p>sardordev.uz</p>
-            </div>
+              </li>
+
+
+            </ul>
+
+          </div>
+
         </div>
-    </section>
+      </section>
 
 
 
 
 
+      <!-- 
+        - #MARKET
+      -->
+      <h1 id="navigate-future"></h1>
+      <section class="section market" aria-label="market update" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Coins 1 Years Later Rating</h2>
+
+            <a href="https://accounts.binance.com/en/login" class="btn-link">See All Coins</a>
+          </div>
+
+          <div class="market-tab">
+
+            <ul class="tab-nav">
+
+              <li>
+                <button class="tab-btn active">View All</button>
+              </li>
+
+              <li>
+                <button class="tab-btn">Crypto</button>
+              </li>
+
+              <li>
+                <button class="tab-btn">Crypto</button>
+              </li>
+
+              <li>
+                <button class="tab-btn">Crypto</button>
+              </li>
+
+              <li>
+                <button class="tab-btn">Crypto</button>
+              </li>
+
+              <li>
+                <button class="tab-btn">Crypto</button>
+              </li>
+
+              <li>
+                <button class="tab-btn">Crypto</button>
+              </li>
+
+            </ul>
+
+            <table class="market-table">
+
+              <thead class="table-head">
+
+                <tr class="table-row table-title">
+
+                  <th class="table-heading"></th>
+
+                  <th class="table-heading" scope="col">#</th>
+
+                  <th class="table-heading" scope="col">Name</th>
+
+                  <th class="table-heading" scope="col">Last Price</th>
+
+                  <th class="table-heading" scope="col">Changes</th>
+
+                  <th class="table-heading" scope="col">Market Cap</th>
+
+                  <th class="table-heading" scope="col">Last 1 Years</th>
+
+                  <th class="table-heading"></th>
+
+                </tr>
+
+              </thead>
+
+              <tbody class="table-body">
+
+                <tr class="table-row">
+
+                  <td class="table-data">
+                    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+                      <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+                    </button>
+                  </td>
+
+                  <th class="table-data rank" scope="row">1</th>
+
+                  <td class="table-data">
+                    <div class="wrapper">
+                      <img src="./assets/images/coin-1.svg" width="20" height="20" alt="Bitcoin logo" class="img">
+
+                      <h3>
+                        <a href="#" class="coin-name">Bitcoin <span class="span">BTC</span></a>
+                      </h3>
+                    </div>
+                  </td>
+
+                  <td class="table-data last-price">???</td>
+
+                  <td class="table-data last-update green"><i class="fa-solid fa-equals"></i></td>
+
+                  <td class="table-data market-cap">???</td>
+
+                  <td class="table-data">
+                    <img src="./assets/images/chart-1.svg" width="100" height="40" alt="profit chart" class="chart">
+                  </td>
+
+                  <td class="table-data">
+                    <button class="btn btn-outline">TOP</button>
+                  </td>
+
+                </tr>
+
+                <tr class="table-row">
+
+                  <td class="table-data">
+                    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+                      <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+                    </button>
+                  </td>
+
+                  <th class="table-data rank" scope="row">2</th>
+
+                  <td class="table-data">
+                    <div class="wrapper">
+                      <img src="./assets/images/coin-2.svg" width="20" height="20" alt="Ethereum logo" class="img">
+
+                      <h3>
+                        <a href="#" class="coin-name">Ethereum <span class="span">ETH</span></a>
+                      </h3>
+                    </div>
+                  </td>
+
+                  <td class="table-data last-price">???</td>
+
+                  <td class="table-data last-update green"><i class="fa-solid fa-equals"></i></td>
+
+                  <td class="table-data market-cap">???</td>
+
+                  <td class="table-data">
+                    <img src="./assets/images/chart-1.svg" width="100" height="40" alt="loss chart" class="chart">
+                  </td>
+
+                  <td class="table-data">
+                    <button class="btn btn-outline">TOP</button>
+                  </td>
+
+                </tr>
+
+                <tr class="table-row">
+
+                  <td class="table-data">
+                    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+                      <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+                    </button>
+                  </td>
+
+                  <th class="table-data rank" scope="row">3</th>
+
+                  <td class="table-data">
+                    <div class="wrapper">
+                      <img src="./assets/images/coin-3.svg" width="20" height="20" alt="Tether logo" class="img">
+
+                      <h3>
+                        <a href="#" class="coin-name">Tether <span class="span">USDT/USD</span></a>
+                      </h3>
+                    </div>
+                  </td>
+
+                  <td class="table-data last-price">???</td>
+
+                  <td class="table-data last-update green"><i class="fa-solid fa-equals"></i></td>
+
+                  <td class="table-data market-cap">???</td>
+
+                  <td class="table-data">
+                    <img src="./assets/images/chart-1.svg" width="100" height="40" alt="profit chart" class="chart">
+                  </td>
+
+                  <td class="table-data">
+                    <button class="btn btn-outline">TOP</button>
+                  </td>
+
+                </tr>
+                <tr class="table-row">
+
+                  <td class="table-data">
+                    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+                      <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+                    </button>
+                  </td>
+
+                  <th class="table-data rank" scope="row">4</th>
+
+                  <td class="table-data">
+                    <div class="wrapper">
+                      <img src="./assets/images/coin-5.svg" width="20" height="20" alt="Solana logo" class="img">
+
+                      <h3>
+                        <a href="#" class="coin-name">Solana <span class="span">SOL</span></a>
+                      </h3>
+                    </div>
+                  </td>
+
+                  <td class="table-data last-price">???</td>
+
+                  <td class="table-data last-update green">+1</td>
+
+                  <td class="table-data market-cap">???</td>
+
+                  <td class="table-data">
+                    <img src="./assets/images/chart-1.svg" width="100" height="40" alt="profit chart" class="chart">
+                  </td>
+
+                  <td class="table-data">
+                    <button class="btn btn-outline">TOP</button>
+                  </td>
+
+                </tr>
+
+                <tr class="table-row">
+
+                  <td class="table-data">
+                    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+                      <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+                    </button>
+                  </td>
+
+                  <th class="table-data rank" scope="row">5</th>
+
+                  <td class="table-data">
+                    <div class="wrapper">
+                      <img src="./assets/images/coin-4.svg" width="20" height="20" alt="BNB logo" class="img">
+
+                      <h3>
+                        <a href="#" class="coin-name">BNB <span class="span">BNB/USD</span></a>
+                      </h3>
+                    </div>
+                  </td>
+
+                  <td class="table-data last-price">???</td>
+
+                  <td class="table-data last-update red">-1</td>
+
+                  <td class="table-data market-cap">???</td>
+
+                  <td class="table-data">
+                    <img src="./assets/images/chart-2.svg" width="100" height="40" alt="loss chart" class="chart">
+                  </td>
+
+                  <td class="table-data">
+                    <button class="btn btn-outline">TOP</button>
+                  </td>
+
+                </tr>
 
 
-    <script src="./script.js"></script>
+                <tr class="table-row">
+
+                  <td class="table-data">
+                    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+                      <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+                    </button>
+                  </td>
+
+                  <th class="table-data rank" scope="row">6</th>
+
+                  <td class="table-data ">
+                    <div class="wrapper">
+                      <img src="./assets/images/starton.PNG" width="20" height="20" alt="STARTON logo" class="img">
+
+                      <h3>
+                        <a href="#" class="coin-name">STARTON <span class="span">STARTON</span></a>
+                      </h3>
+                    </div>
+                  </td>
+
+                  <td class="table-data last-price">???</td>
+
+                  <td class="table-data last-update green">+4</td>
+
+                  <td class="table-data market-cap">???</td>
+
+                  <td class="table-data">
+                    <img src="./assets/images/chart-1.svg" width="100" height="40" alt="profit chart" class="chart">
+                  </td>
+
+                  <td class="table-data">
+                    <button class="btn btn-outline">TOP</button>
+                  </td>
+
+
+                </tr>
+
+                <tr class="table-row">
+
+                  <td class="table-data">
+                    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+                      <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+                    </button>
+                  </td>
+
+                  <th class="table-data rank" scope="row">7</th>
+
+                  <td class="table-data">
+                    <div class="wrapper">
+                      <img src="./assets/images/coin-6.svg" width="20" height="20" alt="XRP logo" class="img">
+
+                      <h3>
+                        <a href="#" class="coin-name">XRP <span class="span">XRP</span></a>
+                      </h3>
+                    </div>
+                  </td>
+
+                  <td class="table-data last-price">???</td>
+
+                  <td class="table-data last-update red">-1</td>
+
+                  <td class="table-data market-cap">???</td>
+
+                  <td class="table-data">
+                    <img src="./assets/images/chart-2.svg" width="100" height="40" alt="loss chart" class="chart">
+                  </td>
+
+                  <td class="table-data">
+                    <button class="btn btn-outline">TOP</button>
+                  </td>
+
+                </tr>
+
+                <tr class="table-row">
+
+                  <td class="table-data">
+                    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+                      <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+                    </button>
+                  </td>
+
+                  <th class="table-data rank" scope="row">8</th>
+
+                  <td class="table-data">
+                    <div class="wrapper">
+                      <img src="./assets/images/coin-7.svg" width="20" height="20" alt="Cardano logo" class="img">
+
+                      <h3>
+                        <a href="#" class="coin-name">Cardano <span class="span">ADA</span></a>
+                      </h3>
+                    </div>
+                  </td>
+
+                  <td class="table-data last-price">???</td>
+
+                  <td class="table-data last-update red">-1</td>
+
+                  <td class="table-data market-cap">???</td>
+
+                  <td class="table-data">
+                    <img src="./assets/images/chart-2.svg" width="100" height="40" alt="profit chart" class="chart">
+                  </td>
+
+                  <td class="table-data">
+                    <button class="btn btn-outline">TOP</button>
+                  </td>
+
+                </tr>
+
+                <tr class="table-row">
+
+                  <td class="table-data">
+                    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+                      <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+                    </button>
+                  </td>
+
+                  <th class="table-data rank" scope="row">9</th>
+
+                  <td class="table-data">
+                    <div class="wrapper">
+                      <img src="./assets/images/coin-8.svg" width="20" height="20" alt="Avalanche logo" class="img">
+
+                      <h3>
+                        <a href="#" class="coin-name">Avalanche <span class="span">AVAX</span></a>
+                      </h3>
+                    </div>
+                  </td>
+
+                  <td class="table-data last-price">???</td>
+
+                  <td class="table-data last-update red">-1</td>
+
+                  <td class="table-data market-cap">???</td>
+
+                  <td class="table-data">
+                    <img src="./assets/images/chart-2.svg" width="100" height="40" alt="profit chart" class="chart">
+                  </td>
+
+                  <td class="table-data">
+                    <button class="btn btn-outline">TOP</button>
+                  </td>
+                </tr>
+
+
+              </tbody>
+
+            </table>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #INSTRUCTION
+      -->
+      <h1 id="navigate-telegram"></h1>
+      <section class="section instruction" aria-label="instruction" data-section>
+        <div class="container">
+
+          <h2 class="h2 section-title">Telegram StarTon Bot</h2>
+
+          <p class="section-text">
+            SOON
+          </p>
+
+          <ul class="instruction-list">
+
+            <li>
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/instruction-1.png" width="96" height="96" loading="lazy" alt="Step 1"
+                    class="img">
+                </figure>
+
+                <p class="card-subtitle">Step 1</p>
+
+                <h3 class="h3 card-title">Start Bot</h3>
+
+                <p class="card-text">
+                  Enter the original bot and press start.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/instruction-3.png" width="96" height="96" loading="lazy" alt="Step 2"
+                    class="img">
+                </figure>
+
+                <p class="card-subtitle">Step 2</p>
+
+                <h3 class="h3 card-title">Tap Screen</h3>
+
+                <p class="card-text">
+                  Enter the bot and start collecting coins.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/instruction-2.png" width="96" height="96" loading="lazy" alt="Step 3"
+                    class="img">
+                </figure>
+
+                <p class="card-subtitle">Step 3</p>
+
+                <h3 class="h3 card-title">Connect Wallet</h3>
+
+                <p class="card-text">
+                  Connect your wallet on listing day.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/instruction-4.png" width="96" height="96" loading="lazy" alt="Step 4"
+                    class="img">
+                </figure>
+
+                <p class="card-subtitle">Step 4</p>
+
+                <h3 class="h3 card-title">Earn Money</h3>
+
+                <p class="card-text">
+                  Buy or sell your collected coins on official exchanges.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+      <h1 id="navigate-about"></h1>
+      <section class="section about" aria-label="about" data-section>
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/complate laptop.png" width="748" height="436" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">What Is STARTON</h2>
+
+            <p class="section-text">
+              StarTon is the first cryptocurrency created in Uzbekistan. Therefore, this cryptocurrency has a future.
+              Famous Uzbek and foreign investors are investing in this currency.
+            </p>
+
+            <ul class="section-list">
+
+              <li class="section-item">
+                <div class="title-wrapper">
+                  <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 list-title">View real-time cryptocurrency prices</h3>
+                </div>
+
+                <p class="item-text">
+                  You can see this currency in real time on several exchanges and it will definitely be listed on all
+                  exchanges in the coming days.
+                </p>
+              </li>
+
+              <li class="section-item">
+                <div class="title-wrapper">
+                  <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 list-title">Buy and sell STARTON</h3>
+                </div>
+
+                <p class="item-text">
+
+                  StarTon is now available for purchase via dusting, scroll down to purchase.
+                </p>
+              </li>
+
+            </ul>
+
+            <a href="#navigate-dedust" class="btn btn-primary">Buy Now</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <h1 id="navigate-dedust"></h1>
+      <section class="dedust-container">
+        <h1 class="hide">STARTON</h1>
+        <h1 class="hide">STARTON</h1>
+        <h1 class="dedusth">Dedust Swap</h1>
+        <div class="dedust-swap">
+          <iframe src="https://dedust.io/swap/TON/EQDsJZkUfD5IG6axw6BveNAZjhPS3z3WzPeTS7BpJidfIF-E" width="80%"
+            height="800" style="border:none;"></iframe>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <h1 id="navigate-contact"></h1>
+  <footer class="footer">
+
+    <div class="footer-top" data-section>
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/starton.PNG" width="50" height="50" alt="Cryptex logo">
+            STARTON
+          </a>
+
+          <h2 class="footer-title">Let's talk! 🤙</h2>
+
+          <a href="https://t.me/Maqsadbek_Madrimov" class="footer-contact-link">Telegram</a>
+
+          <a href="mailto:startoncommunity@gmail.com" class="footer-contact-link">startoncommunity@gmail.com</a>
+
+          <address class="footer-contact-link">
+            PowerBy <a href="https://t.me/Bekzodov1c_7" class="copyright-link">SardorDev</a> and Partner <a href="https://t.me/elyyxs" class="copyright-link">Elyyxs</a>
+          </address>
+          
+          <address class="footer-contact-link">
+            Owner <a href="https://t.me/Maqsadbek_Madrimov" class="copyright-link">𝑴𝒂𝒅𝒓𝒊𝒎𝒐𝒗</a>
+          </address>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Products</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Spot</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Inverse Perpetual</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">USDT Perpetual</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Exchange</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Launchpad</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Binance Pay</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Services</p>
+          </li>
+
+          <li>
+            <a href="#navigate-dedust" class="footer-link">Buy Crypto</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Markets</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Tranding Fee</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Affiliate Program</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Referral Program</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">API</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Support</p>
+          </li>
+
+          <li>
+            <a href="https://t.me/Madrimov_Trade" class="footer-link">SupportChanel</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link"><a href="mailto:startoncommunity@gmail.com" class="footer-contact-link">Help Center</a></a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">User Feedback</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Submit a request</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">API Documentation</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Trading Rules</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">About Us</p>
+          </li>
+
+          <li>
+            <a href="#navigate-about" class="footer-link">About STARTON</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Authenticity Check</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Careers</a>
+          </li>
+
+          <li>
+            <a href="https://t.me/Maqsadbek_Madrimov" class="footer-link">Business Contacts</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blog</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 All Rights Reserved by <a href="" class="copyright-link">STARTON</a>
+        </p>
+
+        <ul class="social-list">
+          <li>
+            <a href="https://www.instagram.com/starton_news?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://t.me/Madrimov_Trade" class="social-link">
+              <i class="fa-brands fa-telegram"></i>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+  <script src="./assets/js/script.js" defer></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 
 </html>
