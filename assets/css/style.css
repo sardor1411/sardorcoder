@@ -439,7 +439,6 @@
     overflow: hidden;
     visibility: hidden;
     transition: 0.25s var(--cubic-out);
-    border-radius: 50%;
   }
   
   .navbar.active {
